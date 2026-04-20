@@ -8,14 +8,14 @@ tupla = ("daniela", "valle", 14, 160, False)
 lista[0] = "juan"
 
 #esto no se puede hacer porque las tuplas son inmutables y no se pueden modificar los elementos
-#tupla[0] = "maria" 
+tupla[0] = "maria" 
 
 
 #creando un conjunto (set) (no se pueden modificar los elementos, no tienen orden, no se accede por índice, no permiten duplicados)
 conjunto = {"andres", "ramos", 15, 175, True, 'andres'} 
 
 #esto no se puede hacer porque los conjuntos no tienen orden y no se accede por índice
-#print(conjunto[2]) 
+print(conjunto[2]) 
 
 #creando un diccionario (dict) la estructura es key:value y separamos con comas.
 #(se pueden modificar los elementos, no tienen orden, se accede por clave, no permiten claves duplicadas)
