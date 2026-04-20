@@ -24,8 +24,8 @@ name = 'andres'
 welcome = f"Hola {name} como estas?"
 
 #operadores de pertenencia (in / not in)
-#print("andres" in bienvenida) #true
-#print("andres" not in bienvenida) #false
+print("andres" in bienvenida) #true
+print("andres" not in bienvenida) #false
 
 
 #EJERCICIOS
@@ -42,5 +42,20 @@ msg = f"hola {nombre}, tienes {edad} años y mides {estatura}cm, pasa adelante!"
 feliz = True
 
 feeling = f"me siento feliz de aprender python? {feliz}"
+print(feeling)
 
+# EJERCICIOS DÍA 1 REVISADOS
+
+# 1. Variables con tipos de datos correctos
+nombre = "andres"
+edad = 15          # Ahora es un número entero
+estatura = 175     # Ahora es un número entero
+
+msg = f"hola {nombre}, tienes {edad} años y mides {estatura}cm, pasa adelante!"
+print(msg)
+
+# 2. Variable booleana
+esta_emocionado = True  # Usando snake_case para el nombre
+
+feeling = f"me siento feliz de aprender python? {esta_emocionado}"
 print(feeling)
